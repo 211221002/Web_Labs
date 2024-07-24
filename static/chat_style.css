@@ -1,0 +1,99 @@
+.notification-dropdown {
+    width: 300px; /* Adjust the width as needed */
+}
+.list-group-item {
+    padding: 10px 15px;
+    border: none;
+    border-bottom: 1px solid #e9ecef;
+}
+.list-group-item:last-child {
+    border-bottom: none;
+}
+.list-group-item i {
+    font-size: 1.2em;
+}
+.notification-dropdown {
+    width: 300px; /* Adjust the width as needed */
+    left: auto; /* Ensure it's not forced to the right */
+    right: 0; /* Align to the right edge of the parent */
+}
+
+
+.modal-content {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.modal-header {
+    background-color: #075E54;
+    color: white;
+}
+
+.chat-box {
+    height: 60vh;
+    overflow-y: auto;
+    background-color: #ECE5DD;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#chatMessages {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-group-item {
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 75%;
+}
+
+.sent {
+    background-color: #DCF8C6;
+    align-self: flex-end;
+    margin-right: 10px;
+}
+
+.received {
+    background-color: white;
+    align-self: flex-start;
+    margin-left: 10px;
+}
+
+.input-group {
+    margin-top: 15px;
+}
+
+.input-group .form-control {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.input-group .btn {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.input-group-append {
+    margin-left: -1px;
+}
+
+#sendMessageButton {
+    background-color: #075E54;
+    border: none;
+}
+
+#sendMessageButton:hover {
+    background-color: #128C7E;
+}
+
+.btn-chat i {
+    font-size: 1.2rem;
+    /* Ubah ukuran ikon */
+    color: white;
+    /* Ubah warna ikon */
+}
