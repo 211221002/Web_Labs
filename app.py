@@ -41,7 +41,7 @@ statistik_collection = db['statistik']
 
 # Konfigurasi API client dengan API key Anda
 configuration = Configuration()
-configuration.api_key['api-key'] = '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'
+configuration.api_key['api-key'] = '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'
 api_client = ApiClient(configuration)
 api_instance = TransactionalEmailsApi(api_client)
 # Configure the upload folder
